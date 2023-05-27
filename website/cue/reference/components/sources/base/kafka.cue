@@ -188,6 +188,11 @@ base: components: sources: kafka: configuration: {
 						"""
 					required: false
 					type: bool: default: true
+					avro: """
+						Decodes the raw bytes as an [Apache Avro][apache_avro] record.
+
+						[apache_avro]: https://avro.apache.org/
+						"""
 				}
 			}
 		}
